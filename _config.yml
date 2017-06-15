@@ -1,83 +1,47 @@
 # Basic
-title: 濮玉朵朵的笔记本
-subtitle: 虎嗅蔷薇
-description: 鸡汤少年的三分钟热土
-# 头像里面的标题
-avatarTitle: 濮玉朵朵
-# 头像里面的描述
-avatarDesc: 花式打杂的少年
-url: "http://zhong717.com"
+title: OneV's Den
+subtitle: 上善若水，人淡如菊
+welcome_message: ObjC 中国与 objc.io 合作最新作品<a href="https://objccn.io/products/" target="_blank">《函数式 Swift》,《Core Data》及《Swift 进阶》已经发布</a>，<a href="https://www.boxueio.com/register/ec84c3dd183b0acc820d5eae474d499d">泊学网正在开展订阅赠书活动，也欢迎前往了解</a>
+description: 嗨，我是王巍 (@onevcat)，一名来自中国的 iOS / Unity 开发者。现居日本，就职于 LINE。正在修行，探求创意之源。
+creator: <a href="http://onev.cat">@onevcat</a>
 
-# Comment
-#comment:
-    # disqus: lilian
-#    duoshuo: lilian
+url: "http://onevcat.com"
 
-# Social
-social:
-    github: autumn05
-
-# 百度统计
-# 使用博客模板请去掉或者更换 id
-#baidu:
-#    id: e572ae9801b3a18891f123796b889f77
-
-# Google Analytics
-# 使用博客模板请去掉或者更换 id
-ga:
-    id: UA-96206233-1
-    host: auto
-
-
-# 《----------------- 上面的信息修改成你自己的 ---------------------------》
-#
-#
-#  _post/ 下的文章更换成你自己的文章
-#  帮忙star一下，感谢~😆 地址： https://github.com/dearLilian/dearLilian.github.io
-#
-#
-# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
-
-
-permalink: /blog/:year/:month/:title.html
-
-markdown: kramdown
-
-
-kramdown:
-  input:  GFM
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: true
-  extensions:
-    - autolink
-    - footnotes
-    - smart
-  syntax_highlighter: rouge
-
+permalink: /:year/:month/:title/
 
 # Format
 highlighter: rouge
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-#cover_color:
+cover_color: 
 
-# The blog button should not be removed.
 blog_button:
-    title: 主页
+    title: 博客
+    description: 访问博客
 
-# Navigation buttons in the front page.s
 nav:
-    - {title: 文章, description: archive, url: '/archive'}
-    - {title: 分类, description: tags, url: '/tags'}
-    - {title: 留言, description: messages, url: '/messages'}
-    - {title: 资源, description: links, url: '/links'}
-    - {title: 关于, description: about, url: '/about'}
-
+    - {title: 简历, description: 我的简历, url: 'https://onev.cat'}
+    - {title: 关于, description: 了解更多关于我, url: 'http://about.onevcat.com/'}
+    - {title: 订阅, description: 邮件订阅本站, url: '//store.objccn.io/subscribe'}
 
 # Pagination
-gems: [jekyll-paginate,jekyll-sitemap]
+gems: [jekyll-paginate]
 paginate: 10
 paginate_path: "page/:num/"
+
+# Comment
+comment:
+    disqus: onevcat
+    # duoshuo:
+# Social
+social:
+    weibo: onevcat
+    github: onevcat
+    twitter: onevcat
+    gplus: 107108267983477358170
+    mail: onev@onevcat.com
+
+# Google Analytics
+ga:
+    id: UA-25719337-1
+    host: onevcat.com
