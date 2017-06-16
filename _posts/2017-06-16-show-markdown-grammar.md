@@ -5,7 +5,7 @@ date: 2016-06-16 22:52:23.000000000 +09:00
 tags: 博客搭建
 ---
 
-[超链接](https://onevcat.com/2013/12/code-vs-xib-vs-storyboard/)
+[超链接](http://zhong717.com/2016/06/show-markdown-grammar/)
 
 ## 第二大的标题字
 
